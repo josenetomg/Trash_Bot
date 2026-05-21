@@ -70,7 +70,10 @@ O Trash Bot demonstrou ser uma ferramenta eficaz de engajamento durante o Arduin
 
 ## 📚 Referências
 
-1. BANZI, M. *Getting Started with Arduino*. O'Reilly Media, 2011. 2. DATASHEET HC-SR04. *Ultrasonic Sensor Module*. Disponível em: [Documentação técnica]. 3. DALLAS SEMICONDUCTOR. *DS18B20 Programmable Resolution 1-Wire Digital Thermometer*. 4. ORGANIZAÇÃO MUNDIAL DA SAÚDE (OMS). *Prevenção e Controle da Dengue*. 2024.
+1. BANZI, M. *Getting Started with Arduino*. O'Reilly Media, 2011.
+2. DATASHEET HC-SR04. *Ultrasonic Sensor Module*. Disponível em: [Documentação técnica].
+3. DALLAS SEMICONDUCTOR. *DS18B20 Programmable Resolution 1-Wire Digital Thermometer*.
+4. ORGANIZAÇÃO MUNDIAL DA SAÚDE (OMS). *Prevenção e Controle da Dengue*. 2024.
 
 
 *Projeto desenvolvido por Jose Joaquim Brandão Neto e apresentado no Arduino Day.*
