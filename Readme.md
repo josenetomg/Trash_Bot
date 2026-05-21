@@ -20,7 +20,7 @@ Este é um projeto com um propósito social e técnico muito claro. Abaixo, estr
 
 —
 
-# Trash Bot: Robô Recepcionista e Agente de Saúde 🤖🧹
+# 🧹Trash Bot: Robô Recepcionista e Agente de Saúde 🤖
 
 ## Resumo
 
