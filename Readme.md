@@ -1,24 +1,3 @@
-Este projeto implementa um sistema robótico programável que utiliza uma interface de teclado estilo telefone para gravar sequências de movimentos, monitoradas por um display Nokia 5110 e feedback por voz.
-
-# 🚀 Funcionalidades - Programação por Teclado: 
-
-Use a tecla `*` para iniciar a gravação e números para definir a rota. - Sensor de Presença: O ultrassom HC-SR04 monitora obstáculos ou movimentos frontais. - Feedback por Voz: O módulo ISD1820 reproduz um áudio pré-gravado ao detectar presença. - Interface Visual: LCD Nokia 5110 exibe o log de comandos e status dos sensores em tempo real.
-
-# 🔌 Conexões Críticas - ISD1820: 
-
-Conectado ao pino `A5` para disparo automático. - Teclado: Mapeado em pinos digitais e analógicos para otimização de espaço no Nano. - L293D: Controla a tração dos motores através das saídas PWM.
-
-# 🛠️ Instruções de Uso 1.
-
-Grave sua mensagem de voz pressionando o botão físico no módulo ISD1820. 2. No Arduino, pressione `*` para entrar em modo de programação. 3. Digite a sequência (ex: 2 para frente, 8 para trás). 4. Pressione `#` para o robô executar a memória. 5. Se algo cruzar o caminho do sensor ( < 20cm), o áudio será disparado
-
-### Dica Profissional:
-
-O LCD Nokia 5110 opera em 3.3V. Certifique-se de usar resistores de 10k em série ou um conversor de nível lógico entre os pinos do Nano (5V) e o LCD para não danificar o display. O módulo ISD1820 pode ser alimentado diretamente pelos 5V do Arduino, mas o disparo pelo pino analógico (`A5`) como digital é seguro e eficiente.
-
-Este é um projeto com um propósito social e técnico muito claro. Abaixo, estruturei o arquivo `README.md` com o rigor de um miniartigo técnico, destacando o papel do Trash Bot no evento Arduino Day e a importância da conscientização contra a Dengue.
-
-
 # 🧹Trash Bot: Robô Recepcionista e Agente de Saúde 🤖
 
 ## Resumo
@@ -77,3 +56,22 @@ O Trash Bot demonstrou ser uma ferramenta eficaz de engajamento durante o Arduin
 
 
 *Projeto desenvolvido por Jose Joaquim Brandão Neto e apresentado no Arduino Day.*
+
+Este projeto implementa um sistema robótico programável que utiliza uma interface de teclado estilo telefone para gravar sequências de movimentos, monitoradas por um display Nokia 5110 e feedback por voz.
+
+# 🚀 Funcionalidades - Programação por Teclado: 
+
+Use a tecla `*` para iniciar a gravação e números para definir a rota. - Sensor de Presença: O ultrassom HC-SR04 monitora obstáculos ou movimentos frontais. - Feedback por Voz: O módulo ISD1820 reproduz um áudio pré-gravado ao detectar presença. - Interface Visual: LCD Nokia 5110 exibe o log de comandos e status dos sensores em tempo real.
+
+# 🔌 Conexões Críticas - ISD1820: 
+
+Conectado ao pino `A5` para disparo automático. - Teclado: Mapeado em pinos digitais e analógicos para otimização de espaço no Nano. - L293D: Controla a tração dos motores através das saídas PWM.
+
+# 🛠️ Instruções de Uso 1.
+
+Grave sua mensagem de voz pressionando o botão físico no módulo ISD1820. 2. No Arduino, pressione `*` para entrar em modo de programação. 3. Digite a sequência (ex: 2 para frente, 8 para trás). 4. Pressione `#` para o robô executar a memória. 5. Se algo cruzar o caminho do sensor ( < 20cm), o áudio será disparado
+
+### Dica Profissional:
+
+O LCD Nokia 5110 opera em 3.3V. Certifique-se de usar resistores de 10k em série ou um conversor de nível lógico entre os pinos do Nano (5V) e o LCD para não danificar o display. O módulo ISD1820 pode ser alimentado diretamente pelos 5V do Arduino, mas o disparo pelo pino analógico (`A5`) como digital é seguro e eficiente.
+
