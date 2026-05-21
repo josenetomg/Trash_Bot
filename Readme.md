@@ -1,10 +1,16 @@
 Este projeto implementa um sistema robótico programável que utiliza uma interface de teclado estilo telefone para gravar sequências de movimentos, monitoradas por um display Nokia 5110 e feedback por voz.
 
-# 🚀 Funcionalidades - Programação por Teclado: Use a tecla `*` para iniciar a gravação e números para definir a rota. - Sensor de Presença: O ultrassom HC-SR04 monitora obstáculos ou movimentos frontais. - Feedback por Voz: O módulo ISD1820 reproduz um áudio pré-gravado ao detectar presença. - Interface Visual: LCD Nokia 5110 exibe o log de comandos e status dos sensores em tempo real.
+# 🚀 Funcionalidades - Programação por Teclado: 
 
-# 🔌 Conexões Críticas - ISD1820: Conectado ao pino `A5` para disparo automático. - Teclado: Mapeado em pinos digitais e analógicos para otimização de espaço no Nano. - L293D: Controla a tração dos motores através das saídas PWM.
+Use a tecla `*` para iniciar a gravação e números para definir a rota. - Sensor de Presença: O ultrassom HC-SR04 monitora obstáculos ou movimentos frontais. - Feedback por Voz: O módulo ISD1820 reproduz um áudio pré-gravado ao detectar presença. - Interface Visual: LCD Nokia 5110 exibe o log de comandos e status dos sensores em tempo real.
 
-# 🛠️ Instruções de Uso 1. Grave sua mensagem de voz pressionando o botão físico no módulo ISD1820. 2. No Arduino, pressione `*` para entrar em modo de programação. 3. Digite a sequência (ex: 2 para frente, 8 para trás). 4. Pressione `#` para o robô executar a memória. 5. Se algo cruzar o caminho do sensor ( < 20cm), o áudio será disparado
+# 🔌 Conexões Críticas - ISD1820: 
+
+Conectado ao pino `A5` para disparo automático. - Teclado: Mapeado em pinos digitais e analógicos para otimização de espaço no Nano. - L293D: Controla a tração dos motores através das saídas PWM.
+
+# 🛠️ Instruções de Uso 1.
+
+Grave sua mensagem de voz pressionando o botão físico no módulo ISD1820. 2. No Arduino, pressione `*` para entrar em modo de programação. 3. Digite a sequência (ex: 2 para frente, 8 para trás). 4. Pressione `#` para o robô executar a memória. 5. Se algo cruzar o caminho do sensor ( < 20cm), o áudio será disparado
 
 ### Dica Profissional:
 
