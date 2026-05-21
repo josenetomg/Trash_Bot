@@ -67,7 +67,7 @@ Use a tecla `*` para iniciar a gravação e números para definir a rota. - Sens
 
 Conectado ao pino `A5` para disparo automático. - Teclado: Mapeado em pinos digitais e analógicos para otimização de espaço no Nano. - L293D: Controla a tração dos motores através das saídas PWM.
 
-## 🛠️ Instruções de Uso 1.
+## 🛠️ Instruções de Uso.
 
 Grave sua mensagem de voz pressionando o botão físico no módulo ISD1820. 2. No Arduino, pressione `*` para entrar em modo de programação. 3. Digite a sequência (ex: 2 para frente, 8 para trás). 4. Pressione `#` para o robô executar a memória. 5. Se algo cruzar o caminho do sensor ( < 20cm), o áudio será disparado
 
